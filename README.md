@@ -10,5 +10,18 @@ mkdir build
 cd build  
 cmake..  
 make  
+
+提取依赖库文件，做静态链接  
+cp ../tmp.sh ../barcode.sh .   
+./tmp.sh
 ## 运行
+./barcode.sh ../imgs/barcode_2.jpg
+## 输出
+{
+   "output" : {
+      "code_type" : "CODE-128",
+      "decode_string" : "6944910334609",
+      "pic_name" : "../imgs/barcode_2.jpg"
+   }
+}
 
