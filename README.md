@@ -3,7 +3,7 @@
 - opencv
 - zbar(sudo apt-get install libzbar-dev)
 - jsoncpp  
-   安装：https://blog.csdn.net/deyuzhi/article/details/51747221
+   安装：https://blog.csdn.net/deyuzhi/article/details/51747221 注意文中拷贝libjson.a的位置应该是/usr/lib
    安装包在dependences下
 ## 编译
 mkdir build  
